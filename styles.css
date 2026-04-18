@@ -192,3 +192,7 @@ footer {
    color: ivory;
    letter-spacing: 0.13em;
 }
+/* Hide submenus by default so jQuery can show them on hover */
+li.submenu ul {
+   display: none;
+}
